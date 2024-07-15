@@ -1,0 +1,98 @@
+/* Estilos generales para el formulario  de adopción del gato*/
+ h2 {
+    text-align: center;
+    color: #ff6f61; /* Color de texto pastel */
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    color: #6a1b9a; /* Color de texto pastel */
+}
+
+input[type="text"],
+.DiseñoFormulario input[type="Nombre"],
+.DiseñoFormulario input[type="pregunta1"],
+.DiseñoFormulario input[type="pregunta2"],
+.DiseñoFormulario input[type="pregunta3"],
+.DiseñoFormulario input[type="edad"],
+.DiseñoFormulario input[type="telefono"],
+.DiseñoFormulario textarea,
+select {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fffaf0; /* Fondo pastel */
+}
+
+input[type="submit"] {
+    background-color: #4caf50; /* Botón pastel */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.form{
+    position: center;
+    top: 50px;
+    right: 0;
+    background-color: #fdf4f4;
+    width: 1200px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(41, 21, 21, 0.922);
+    border-radius: 20px;
+}
+.register{
+    position: center;
+    top: 50px;
+    right: 0;
+    background-color: #fdf4f4;
+    width: 800px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(41, 21, 21, 0.922);
+    border-radius: 20px;
+}
+
+/* Estilos para campos obligatorios */
+.required {
+    color: red;
+}
+body{
+    position: relative;
+    top: 50px;
+    right: 0;
+    background-color: #fdf4f4;
+    width: 800px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(41, 21, 21, 0.922);
+    border-radius: 50px;
+    
+}
+.DiseñoFormulario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.DiseñoFormulario{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+
+
+

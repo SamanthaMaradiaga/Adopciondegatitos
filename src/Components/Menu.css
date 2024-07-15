@@ -1,0 +1,35 @@
+/* src/components/Navbar.css */
+
+.menu {
+    background-color: #ffccda; /* Color rosado tierno Este es el color de fondo del menú */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Lucida Calligraphy'; /*En este apartado estoy definiendo el tipo de fuente que utilizaré en mi menú*/
+  }
+  
+  .menu-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .menu-item {
+    margin: 0;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: #fff; /* Aquí defino el color del texto que contiene el menú */
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-item a:hover {
+    color: #ff6699; /* Aquí defino el color que tendrá el menú a la hora de pasar el puntero sobre él */
+  }
+  

@@ -1,0 +1,31 @@
+body{
+    position: center;
+    top: 60px;
+    right: 0;
+    background-color: #ffffff;
+    width: 1200px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(41, 21, 21, 0.922);
+    border-radius: 50px;
+    
+}
+p {
+    margin-bottom: 16px; /* Puedes ajustar el valor según tus necesidades */
+  }
+  .Inicio {
+    background-color: #fff9f9; /* Color de fondo del contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    border: 1px solid #ccc; /* Borde del contenedor */
+  }
+
+nav{
+    background-color: #ffffff6b; /* Color de fondo del párrafo */
+    padding: 20px; /* Espaciado interno del párrafo */
+    margin: 0 auto; /* Centrando el párrafo horizontalmente */
+    width: 70%; /* Ancho del párrafo */
+    border: 3px solid #777676; /* Borde del párrafo */
+    font-family: Baskerville old face; /* Tipo de letra */
+    font-size: 14px; /* Tamaño de la letra */
+    color: #333; /* Color del texto */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Sombra para el párrafo */
+  }

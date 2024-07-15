@@ -1,0 +1,167 @@
+/* Globales */
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Lato';
+    color: #333;
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+.container-icon{
+    position: relative;
+}
+
+.count-products{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contador-productos{
+    font-size: 12px;
+}
+
+.ContenedorProductos{
+    position: relative;
+    top: 50px;
+    right: 0;
+    background-color: #fdf4f4;
+    width: 1200px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(41, 21, 21, 0.922);
+    border-radius: 20px;
+    
+}
+
+
+.ContenedorProductos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.ContenedorProductos{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.ContenedorProductos{
+    font-size: 20px;
+}
+
+
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.hidden-cart{
+    display: none;
+}
+
+/* Main */
+.ContenedorProductos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Producto{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.579);
+}
+
+.Producto img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.Producto figure{
+    overflow: hidden;
+}
+
+.Producto:hover img{
+    transform: scale(1.2);
+}
+
+.descripcion{
+    padding: 15px 30px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #310370;
+    font-family: 'Baskerville old face';
+}
+
+.edad{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.ContenedorProductos button{
+    border: none;
+    background: none;
+    background-color: #019ce9;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+    font-family: 'Baskerville old face';
+   
+}
+
+.cart-empty{
+    padding: 20px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
